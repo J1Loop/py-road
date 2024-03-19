@@ -1,4 +1,4 @@
-# Sintaxis y conceptos básicos de Python
+# **Sintaxis y conceptos básicos de Python**
 
 Bienvenido al mundo de **Python**, un lenguaje de programación versátil y poderoso que se destaca por su claridad y simplicidad. Este documento te guiará a través de los fundamentos de **Python**, asegurándose de que comprendas la sintaxis básica y los conceptos esenciales para comenzar tu viaje en la programación.
 

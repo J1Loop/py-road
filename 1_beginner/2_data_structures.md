@@ -1,14 +1,14 @@
-# Estructuras de Datos en Python
+# **Estructuras de Datos en Python**
 
 En este documento, exploraremos las estructuras de datos fundamentales ofrecidas por **Python**. Comprender estas estructuras es esencial para realizar operaciones de almacenamiento, acceso y manipulación de datos de manera eficiente en tus programas.
 
 <br>
 
-## Listas
+## **Listas**
 
 Las listas en **Python** son colecciones ordenadas y mutables de elementos. Pueden contener elementos de diferentes tipos y son uno de los tipos de datos más versátiles en **Python**.
 
-### Creación de Listas
+### **Creación de Listas**
 
 Puedes crear una lista utilizando corchetes `[]`, separando los elementos con comas. También puedes crear listas con la función `list()`.
 
@@ -23,7 +23,7 @@ frutas = ["manzana", "banana", "cereza"]
 mixta = ["texto", 10, True]
 ```
 
-### Accediendo a Elementos
+### **Accediendo a Elementos**
 
 Para acceder a los elementos de una lista, puedes utilizar su índice entre corchetes `[]`. Los índices comienzan en `0`. Puedes acceder a elementos individuales o a un rango de elementos utilizando la notación de rebanadas.
 
@@ -46,7 +46,7 @@ print(frutas[1:3])  # ['banana', 'cereza']
 print(numeros[:3])  # [1, 2, 3]
 ```
 
-### Modificación de Listas
+### **Modificación de Listas**
 
 Las listas son mutables, lo que significa que puedes cambiar sus elementos después de su creación.
 
@@ -55,7 +55,7 @@ frutas[1] = "mango"
 print(frutas)  # ['manzana', 'mango', 'cereza']
 ```
 
-### Operaciones Comunes con Listas
+### **Operaciones Comunes con Listas**
 
 Las listas son estructuras de datos versátiles y dinámicas en Python, que soportan una amplia variedad de operaciones. Aquí te presento algunas operaciones comunes que puedes realizar con listas:
 
@@ -106,11 +106,11 @@ print(frutas)
 
 <br>
 
-## Diccionarios
+## **Diccionarios**
 
 Los diccionarios en Python son colecciones no ordenadas de pares clave-valor. Son mutables y las claves deben ser únicas dentro de un diccionario.
 
-### Creación de Diccionarios
+### **Creación de Diccionarios**
 
 Utiliza llaves `{}` para crear un diccionario, separando claves y valores con `:`.
 
@@ -122,7 +122,7 @@ persona = {
     }
 ```
 
-### Accediendo a Elementos
+### **Accediendo a Elementos**
 
 Puedes acceder a los valores en un diccionario utilizando sus claves.
 
@@ -130,7 +130,7 @@ Puedes acceder a los valores en un diccionario utilizando sus claves.
 print(persona["nombre"])  # Juan
 ```
 
-### Modificación de Diccionarios
+### **Modificación de Diccionarios**
 
 Añade o modifica elementos asignando un valor a una clave.
 
@@ -139,7 +139,7 @@ persona["edad"] = 31
 persona["profesión"] = "Ingeniero"
 ```
 
-### Operaciones Comunes con Diccionarios
+### **Operaciones Comunes con Diccionarios**
 
 Los diccionarios son estructuras de datos esenciales en Python que permiten almacenar pares de clave-valor. A continuación, se presentan algunas operaciones comunes que puedes realizar con diccionarios:
 
@@ -197,11 +197,11 @@ for clave, valor in persona.items():
 
 <br>
 
-## Conjuntos
+## **Conjuntos**
 
 Los conjuntos en Python son colecciones no ordenadas de elementos únicos. Son útiles para operaciones de conjunto como la unión, intersección y diferencia.
 
-### Creación de Conjuntos
+### **Creación de Conjuntos**
 
 Utiliza llaves `{}` para crear un conjunto. Dado que son colecciones de elementos únicos, duplicar elementos se ignorará.
 
@@ -209,7 +209,7 @@ Utiliza llaves `{}` para crear un conjunto. Dado que son colecciones de elemento
 colores = {"rojo", "verde", "azul"}
 ```
 
-### Operaciones Comunes con Conjuntos
+### **Operaciones Comunes con Conjuntos**
 
 Los conjuntos en Python son colecciones no ordenadas de elementos únicos, y proporcionan una amplia gama de operaciones para trabajar con ellos.
 
@@ -237,7 +237,7 @@ Los conjuntos en Python son colecciones no ordenadas de elementos únicos, y pro
   - `issuperset(otro_conjunto)`: Determina si el conjunto es un superconjunto de otro conjunto.
   - `isdisjoint(otro_conjunto)`: Determina si dos conjuntos son disjuntos (no tienen elementos en común).
 
-### Ejemplos
+### **Ejemplos**
 
 ```python
 # Creación de conjuntos
@@ -264,11 +264,11 @@ es_disjunto = numeros.isdisjoint({8, 9})  # True
 
 <br>
 
-## Tuplas
+## **Tuplas**
 
 Las tuplas en Python son colecciones ordenadas e inmutables de elementos. Ofrecen una forma de agrupar datos juntos de una manera que los hace no modificables.
 
-### Creación de Tuplas
+### **Creación de Tuplas**
 
 Para crear una tupla, se utilizan paréntesis `()`, y los elementos se separan por comas.
 
@@ -288,7 +288,7 @@ Para tuplas de un solo elemento, es necesario incluir una coma al final para que
 tupla_un_elemento = (5,)
 ```
 
-### Accediendo a Elementos
+### **Accediendo a Elementos**
 
 Puedes acceder a los elementos de una tupla usando el índice, similar a como lo haces con las listas. Los índices en Python comienzan en 0.
 
@@ -296,7 +296,7 @@ Puedes acceder a los elementos de una tupla usando el índice, similar a como lo
 print(mi_tupla[1])  # Hola
 ```
 
-### Operaciones con Tuplas
+### **Operaciones con Tuplas**
 
 Aunque las tuplas son inmutables, puedes realizar varias operaciones de consulta y combinación:
 
@@ -335,16 +335,16 @@ print(y)  # 2
 print(z)  # 3
 ```
 
-### Inmutabilidad
+### **Inmutabilidad**
 
 Recuerda que no puedes cambiar, añadir o eliminar elementos de una tupla una vez que está creada. Esto incluye no poder cambiar elementos dentro de objetos mutables como listas que puedan estar contenidas dentro de la tupla.
 
-### Usos Comunes
+### **Usos Comunes**
 
 Las tuplas son particularmente útiles en situaciones donde necesitas asegurar que los datos no sean modificados. Son comúnmente usadas para hacer que el código sea más seguro desde el punto de vista de la integridad de los datos, y a menudo se utilizan para devolver múltiples valores desde una función.
 
 <br>
 
-## Conclusión
+## **Conclusión**
 
 Las estructuras de datos son fundamentales para manejar eficientemente los datos en tus programas de Python. Cada estructura tiene sus propias características y usos ideales, desde almacenar elementos de manera secuencial en listas hasta asociar datos en forma de pares clave-valor en diccionarios. Experimenta con estas estructuras para entender mejor sus comportamientos y cómo pueden servirte en diferentes situaciones de programación.
