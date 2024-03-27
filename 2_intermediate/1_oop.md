@@ -1,4 +1,4 @@
-# **Programaicón orientada a objetos (POO)**
+# **Programación orientada a objetos (POO)**
 
 La **P**rogramación **O**rientada a **O**bjetos (**POO**) es un paradigma de programación introducido en los años 1970s que utiliza objetos y clases en su desarrollo. Se centra en los objetos que los desarrolladores quieren manipular en lugar de la lógica necesaria para manipularlos. Este enfoque es útil para proyectos grandes y complejos, y facilita la modularidad y reutilización del código.
 
